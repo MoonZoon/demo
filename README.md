@@ -2,7 +2,9 @@
 
 > [MoonZoon](http://moonzoon.rs/) is a Rust Fullstack Framework.
 
-**[Live demo](http://example.com)**
+**[Live demo](https://moonzoon-demo.herokuapp.com/)**
+
+## Run on a local machine
 
 1. Check you've installed [Rust](https://www.rust-lang.org/) and [wasm-pack](https://rustwasm.github.io/wasm-pack/):
     ```bash
@@ -22,3 +24,10 @@
     cargo_install_root/bin/mzoon start
     ```
     - _Note_: App is much faster when built in the release mode (`-r`).
+
+---
+
+## Run on Heroku / Heroku-like PaaS
+
+- Use the buildpack https://github.com/MoonZoon/heroku-buildpack-moonzoon
+
