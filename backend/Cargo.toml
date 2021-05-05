@@ -10,4 +10,4 @@ readme = "../README.md"
 edition = "2018"
 
 [dependencies]
-moon = { git = "https://github.com/MoonZoon/MoonZoon", branch = "feat/counters_zoon" }
+moon = { git = "https://github.com/MoonZoon/MoonZoon", branch = "signals" }

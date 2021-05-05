@@ -15,7 +15,7 @@
 
 1. Install `mzoon` to `cargo_install_root`:
     ```bash
-    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --branch feat/counters_zoon --root cargo_install_root --locked
+    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --branch signals --root cargo_install_root --locked
     ```
     - _Note:_ `cargo install mzoon` will be enough in the future. And there will be a faster way with pre-compiled binaries.
 
@@ -23,7 +23,7 @@
     ```bash
     cargo_install_root/bin/mzoon start
     ```
-    - _Note_: App is much faster when built in the release mode (`-r`).
+    - _Note_: The app is much faster when built in the release mode (`-r`).
 
 ---
 
