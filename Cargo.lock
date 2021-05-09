@@ -483,7 +483,7 @@ dependencies = [
 [[package]]
 name = "moon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?branch=signals#44f9e916d1970f65d185a1175c44fb6095140e57"
+source = "git+https://github.com/MoonZoon/MoonZoon?branch=signals#ac7391641f7ba885cec8e83ecca8cccc67ea565b"
 dependencies = [
  "futures",
  "mime_guess",
@@ -742,7 +742,7 @@ checksum = "6e63cff320ae2c57904679ba7cb63280a3dc4613885beafb148ee7bf9aa9042d"
 [[package]]
 name = "static_ref_macro"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?branch=signals#44f9e916d1970f65d185a1175c44fb6095140e57"
+source = "git+https://github.com/MoonZoon/MoonZoon?branch=signals#ac7391641f7ba885cec8e83ecca8cccc67ea565b"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1066,7 +1066,7 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "zoon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?branch=signals#44f9e916d1970f65d185a1175c44fb6095140e57"
+source = "git+https://github.com/MoonZoon/MoonZoon?branch=signals#ac7391641f7ba885cec8e83ecca8cccc67ea565b"
 dependencies = [
  "console_error_panic_hook",
  "dominator",
