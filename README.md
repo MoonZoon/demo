@@ -8,7 +8,7 @@
 
 1. Check you've installed [Rust](https://www.rust-lang.org/) and [wasm-pack](https://rustwasm.github.io/wasm-pack/):
     ```bash
-    rustc -V # rustc 1.51.0 (2fd73fabe 2021-03-23)
+    rustc -V # rustc 1.52.0 (88f19c6da 2021-05-03)
     wasm-pack -V # wasm-pack 0.9.1
     ```
     - _Note:_ `wasm-pack` will be installed automatically in the future.
