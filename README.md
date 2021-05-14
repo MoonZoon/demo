@@ -8,14 +8,14 @@
 
 1. Check you've installed [Rust](https://www.rust-lang.org/) and [wasm-pack](https://rustwasm.github.io/wasm-pack/):
     ```bash
-    rustc -V # rustc 1.52.0 (88f19c6da 2021-05-03)
+    rustc -V # rustc 1.52.1 (9bc8c42bb 2021-05-09)
     wasm-pack -V # wasm-pack 0.9.1
     ```
     - _Note:_ `wasm-pack` will be installed automatically in the future.
 
 1. Install `mzoon` to `cargo_install_root`:
     ```bash
-    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --branch signals --root cargo_install_root --locked
+    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev 599b855 --root cargo_install_root --locked
     ```
     - _Note:_ `cargo install mzoon` will be enough in the future. And there will be a faster way with pre-compiled binaries.
 
