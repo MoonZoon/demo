@@ -828,7 +828,7 @@ dependencies = [
 [[package]]
 name = "moon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=5f3c217#5f3c2170ebc512641c7d65961dac9402aca778e3"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=32362a3#32362a38a35e0d57b291503516de0de2c1c55fc6"
 dependencies = [
  "actix-files",
  "actix-http",
@@ -1236,7 +1236,7 @@ dependencies = [
 [[package]]
 name = "static_ref_macro"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=5f3c217#5f3c2170ebc512641c7d65961dac9402aca778e3"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=32362a3#32362a38a35e0d57b291503516de0de2c1c55fc6"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1670,7 +1670,7 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "zoon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=5f3c217#5f3c2170ebc512641c7d65961dac9402aca778e3"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=32362a3#32362a38a35e0d57b291503516de0de2c1c55fc6"
 dependencies = [
  "apply",
  "console_error_panic_hook",
