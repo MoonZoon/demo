@@ -6,22 +6,32 @@
 
 ## Run on a local machine
 
-1. Check you've installed [Rust](https://www.rust-lang.org/) and [wasm-pack](https://rustwasm.github.io/wasm-pack/):
+1. Check you've installed [Rust](https://www.rust-lang.org/):
     ```bash
     rustc -V # rustc 1.52.1 (9bc8c42bb 2021-05-09)
-    wasm-pack -V # wasm-pack 0.9.1
     ```
-    - _Note:_ `wasm-pack` will be installed automatically in the future.
+
+1. Go to the project root.
 
 1. Install `mzoon` to `cargo_install_root`:
     ```bash
-    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev 812dc62 --root cargo_install_root --locked
+    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev 5f3c217 --root cargo_install_root --locked
     ```
-    - _Note:_ `cargo install mzoon` will be enough in the future. And there will be a faster way with pre-compiled binaries.
+    - _Note:_ There will be faster and simpler ways with pre-compiled binaries.
+
+1. Move `cargo_install_root/bin/mzoon` to the project root.
+    ```bash
+    mv cargo_install_root/bin/mzoon mzoon
+    # or
+    move cargo_install_root/bin/mzoon mzoon
+    ```
+    - _Note:_: You can delete the `cargo_install_root` directory now.
 
 1. Build and run:
     ```bash
-    cargo_install_root/bin/mzoon start
+    ./mzoon start
+    # or
+    mzoon start
     ```
     - _Note_: The app is much faster when built in the release mode (`-r`).
 
@@ -30,4 +40,6 @@
 ## Run on Heroku / Heroku-like PaaS
 
 - Use the buildpack https://github.com/MoonZoon/heroku-buildpack-moonzoon
+
+- Update the file `mzoon_commit` if necessary.
 
