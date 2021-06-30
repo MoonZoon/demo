@@ -6,7 +6,7 @@ async fn frontend() -> Frontend {
     .body_content(r#"<div id="main"></div>"#)
 }
 
-async fn up_msg_handler(_: UpMsgRequest) {}
+async fn up_msg_handler(_: UpMsgRequest<()>) {}
 
 #[moon::main]
 async fn main() -> std::io::Result<()> {
