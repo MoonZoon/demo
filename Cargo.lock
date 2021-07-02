@@ -869,7 +869,7 @@ dependencies = [
 [[package]]
 name = "moon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=fa874b7#fa874b72f885f4638d6285d778fc848e048156a5"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=b8dcf2c#b8dcf2c888f2e6b97e5d567c28b2604b79b2f52a"
 dependencies = [
  "actix-files",
  "actix-http",
@@ -899,7 +899,7 @@ dependencies = [
 [[package]]
 name = "moonlight"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=fa874b7#fa874b72f885f4638d6285d778fc848e048156a5"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=b8dcf2c#b8dcf2c888f2e6b97e5d567c28b2604b79b2f52a"
 dependencies = [
  "chrono",
  "getrandom",
@@ -1371,6 +1371,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2579985fda508104f7587689507983eadd6a6e84dd35d6d115361f530916fa0d"
 
 [[package]]
+name = "shared"
+version = "0.1.0"
+
+[[package]]
 name = "signal-hook-registry"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1434,7 +1438,7 @@ dependencies = [
 [[package]]
 name = "static_ref_macro"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=fa874b7#fa874b72f885f4638d6285d778fc848e048156a5"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=b8dcf2c#b8dcf2c888f2e6b97e5d567c28b2604b79b2f52a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1868,7 +1872,7 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "zoon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=fa874b7#fa874b72f885f4638d6285d778fc848e048156a5"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=b8dcf2c#b8dcf2c888f2e6b97e5d567c28b2604b79b2f52a"
 dependencies = [
  "apply",
  "console_error_panic_hook",
