@@ -8,14 +8,14 @@
 
 1. Check you've installed [Rust](https://www.rust-lang.org/):
     ```bash
-    rustc -V # rustc 1.54.0 (a178d0322 2021-07-26)
+    rustc -V # rustc 1.55.0 (c8dfcfe04 2021-09-06)
     ```
 
 1. Go to the project root.
 
 1. Install `mzoon` to `cargo_install_root`:
     ```bash
-    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev 457b8d1 --root cargo_install_root --locked
+    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev 983ea0e --root cargo_install_root --locked
     ```
     - _Note:_ There will be faster and simpler ways with pre-compiled binaries.
 
@@ -29,10 +29,11 @@
 
 1. Build and run:
     ```bash
-    ./mzoon start
+    ./mzoon start -o
     # or
-    mzoon start
+    mzoon start -o
     ```
+    - _Note_: -o / --open opens a new tab in your browser.
     - _Note_: The app is much faster when built in the release mode (`-r`).
 
 ---
