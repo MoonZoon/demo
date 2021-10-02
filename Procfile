@@ -1,1 +1,1 @@
-web: ./target/release/backend
+web: cd "$MZOON_BUILD_PATH"; ./target/release/backend
