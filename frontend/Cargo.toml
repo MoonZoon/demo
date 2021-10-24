@@ -7,13 +7,13 @@ description = "MoonZoon demo"
 categories = ["MoonZoon", "example"]
 license = "MIT"
 readme = "../README.md"
-edition = "2018"
+edition = "2021"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
-zoon = { git = "https://github.com/MoonZoon/MoonZoon", rev = "421438c" }
+zoon = { git = "https://github.com/MoonZoon/MoonZoon", rev = "d46e47d" }
 rand = { version = "0.8.3", features = ["small_rng", "getrandom"], default-features = false }
 getrandom = { version = "0.2", features = ["js"], default-features = false }
 
