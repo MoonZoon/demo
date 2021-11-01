@@ -75,7 +75,7 @@ dependencies = [
  "pin-project-lite",
  "rand 0.8.4",
  "sha-1",
- "smallvec 1.6.1",
+ "smallvec 1.7.0",
  "tokio",
 ]
 
@@ -85,8 +85,8 @@ version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "465a6172cf69b960917811022d8f29bc0b7fa1398bc4f78b3c466673db1213b6"
 dependencies = [
- "quote 1.0.9",
- "syn 1.0.77",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
@@ -116,9 +116,9 @@ dependencies = [
 
 [[package]]
 name = "actix-server"
-version = "2.0.0-beta.5"
+version = "2.0.0-beta.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "26369215fcc3b0176018b3b68756a8bcc275bb000e6212e454944913a1f9bf87"
+checksum = "7367665785765b066ad16e1086d26a087f696bc7c42b6f93004ced6cfcf1eeca"
 dependencies = [
  "actix-rt",
  "actix-service",
@@ -127,15 +127,14 @@ dependencies = [
  "log",
  "mio",
  "num_cpus",
- "slab",
  "tokio",
 ]
 
 [[package]]
 name = "actix-service"
-version = "2.0.0"
+version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77f5f9d66a8730d0fae62c26f3424f5751e5518086628a40b7ab6fca4a705034"
+checksum = "8d3dc6a618b082974a08d7a4781d24d4691cba51500059bfebe6656a61ebfe1e"
 dependencies = [
  "futures-core",
  "paste",
@@ -206,7 +205,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_urlencoded",
- "smallvec 1.6.1",
+ "smallvec 1.7.0",
  "socket2",
  "time",
  "url",
@@ -219,16 +218,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "dfe80a8828fa88a0420dc8fdd4c16b8207326c917f17701881b063eadc2a8d3b"
 dependencies = [
  "actix-router",
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
 name = "ahash"
-version = "0.7.4"
+version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "43bb833f0bf979d8475d38fbf09ed3b8a55e1885fe93ad3f93239fc6a4f17b98"
+checksum = "fcb51a0695d8f838b1ee009b3fbf66bda078cd64590202a864a8f3e8c4315c47"
 dependencies = [
  "getrandom",
  "once_cell",
@@ -262,9 +261,9 @@ version = "0.1.51"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "44318e776df68115a881de9a8fd1b9e53368d7a4a5ce4cc48517da3393233a5e"
 dependencies = [
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
@@ -326,9 +325,9 @@ checksum = "f4aaa5af5d1705aba49bace04f3d29c8fa9c0c20829fdea161b89718b2955ef1"
 
 [[package]]
 name = "bumpalo"
-version = "3.7.1"
+version = "3.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d9df67f7bf9ef8498769f994239c45613ef0c5899415fb58e9add412d2c1a538"
+checksum = "8f1e260c3a9040a7c19a12468758f4c16f31a81a1fe087482be9570ec864bb6c"
 
 [[package]]
 name = "bytes"
@@ -347,9 +346,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.0.70"
+version = "1.0.71"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d26a6ce4b6a484fa3edb70f7efa6fc430fd2b87285fe8b84304fd0936faa0dc0"
+checksum = "79c2681d6594606957bbb8631c4b90a7fcaaa72cdb714743a437b156d6a7eedd"
 
 [[package]]
 name = "cfg-if"
@@ -399,11 +398,11 @@ dependencies = [
 
 [[package]]
 name = "console_error_panic_hook"
-version = "0.1.6"
+version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b8d976903543e0c48546a91908f21588a680a8c8f984df9a5d69feccb2b2a211"
+checksum = "a06aeb73f470f66dcdbf7223caeebb85984942f22f1adb2a088cf9668146bbbc"
 dependencies = [
- "cfg-if 0.1.10",
+ "cfg-if 1.0.0",
  "wasm-bindgen",
 ]
 
@@ -429,10 +428,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "40eebddd2156ce1bb37b20bbe5151340a31828b1f2d22ba4141f3531710e38df"
 dependencies = [
  "convert_case",
- "proc-macro2 1.0.29",
- "quote 1.0.9",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
  "rustc_version",
- "syn 1.0.77",
+ "syn 1.0.81",
 ]
 
 [[package]]
@@ -452,9 +451,9 @@ checksum = "212d0f5754cb6769937f4501cc0e67f4f4483c8d2c3e1e922ee9edbe4ab4c7c0"
 
 [[package]]
 name = "dominator"
-version = "0.5.20"
+version = "0.5.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9e08a6bca53f27195d09c6fffb3dfc17bd778d7d4ccdf16b8329b58056397eca"
+checksum = "2ba42804f53bd02055c74ead9464b689a264e668ad4605bd77689b41a2b014f7"
 dependencies = [
  "discard",
  "futures-channel",
@@ -482,9 +481,9 @@ checksum = "1056f553da426e9c025a662efa48b52e62e0a3a7648aa2d15aeaaf7f0d329357"
 
 [[package]]
 name = "encoding_rs"
-version = "0.8.28"
+version = "0.8.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "80df024fbc5ac80f87dfef0d9f5209a252f2a497f7f42944cff24d8253cac065"
+checksum = "a74ea89a0a1b98f6332de42c95baff457ada66d1cb4030f9ff151b2041a1c746"
 dependencies = [
  "cfg-if 1.0.0",
 ]
@@ -591,16 +590,16 @@ checksum = "18e4a4b95cea4b4ccbcf1c5675ca7c4ee4e9e75eb79944d07defde18068f79bb"
 dependencies = [
  "autocfg 1.0.1",
  "proc-macro-hack",
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
 name = "futures-signals"
-version = "0.3.22"
+version = "0.3.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9e7c31ebfcb97c87ac64db66a2d4d6ae71b487d5a8ef631c80c3d7e65a772a8c"
+checksum = "402d707a810e5fddfb1d5ff44174ffa96c6c1b136e7019cef5c9ef87c8977592"
 dependencies = [
  "discard",
  "futures-channel",
@@ -677,9 +676,9 @@ dependencies = [
 
 [[package]]
 name = "h2"
-version = "0.3.4"
+version = "0.3.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d7f3675cfef6a30c8031cf9e6493ebdc3bb3272a3fea3923c4210d1830e6a472"
+checksum = "7fd819562fcebdac5afc5c113c3ec36f902840b70fd4fc458799c8ce4607ae55"
 dependencies = [
  "bytes",
  "fnv",
@@ -712,7 +711,7 @@ dependencies = [
 [[package]]
 name = "hsluv"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=d46e47d#d46e47db01366be91890c3a50e0be35fa0072ad9"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=be7a602#be7a60252781a0248fb0071578a90c058a8aa02d"
 dependencies = [
  "hsluv_macro",
  "rust-hsluv",
@@ -721,10 +720,10 @@ dependencies = [
 [[package]]
 name = "hsluv_macro"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=d46e47d#d46e47db01366be91890c3a50e0be35fa0072ad9"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=be7a602#be7a60252781a0248fb0071578a90c058a8aa02d"
 dependencies = [
- "quote 1.0.9",
- "syn 1.0.77",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
@@ -785,9 +784,9 @@ dependencies = [
 
 [[package]]
 name = "instant"
-version = "0.1.11"
+version = "0.1.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "716d3d89f35ac6a34fd0eed635395f4c3b76fa889338a4632e5231a8684216bd"
+checksum = "7a5bbe824c507c5da5956355e86a746d82e0e1464f65d862cc5e71da70e94b2c"
 dependencies = [
  "cfg-if 1.0.0",
 ]
@@ -821,9 +820,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.103"
+version = "0.2.106"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd8f7255a17a627354f321ef0055d63b898c6fb27eff628af4d1b66b7331edf6"
+checksum = "a60553f9a9e039a333b4e9b20573b9e9b9c0bb3a11e201ccc48ef4283456d673"
 
 [[package]]
 name = "local-channel"
@@ -904,9 +903,9 @@ dependencies = [
 
 [[package]]
 name = "mio"
-version = "0.7.13"
+version = "0.7.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8c2bdb6314ec10835cd3293dd268473a835c02b7b352e788be788b3c6ca6bb16"
+checksum = "8067b404fe97c70829f082dec8bcf4f71225d7eaea1d8645349cb76fa06205cc"
 dependencies = [
  "libc",
  "log",
@@ -927,7 +926,7 @@ dependencies = [
 [[package]]
 name = "moon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=d46e47d#d46e47db01366be91890c3a50e0be35fa0072ad9"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=be7a602#be7a60252781a0248fb0071578a90c058a8aa02d"
 dependencies = [
  "actix-files",
  "actix-http",
@@ -960,15 +959,15 @@ dependencies = [
 [[package]]
 name = "moon_entry_macros"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=d46e47d#d46e47db01366be91890c3a50e0be35fa0072ad9"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=be7a602#be7a60252781a0248fb0071578a90c058a8aa02d"
 dependencies = [
- "quote 1.0.9",
+ "quote 1.0.10",
 ]
 
 [[package]]
 name = "moonlight"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=d46e47d#d46e47db01366be91890c3a50e0be35fa0072ad9"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=be7a602#be7a60252781a0248fb0071578a90c058a8aa02d"
 dependencies = [
  "chrono",
  "getrandom",
@@ -1079,7 +1078,7 @@ dependencies = [
  "instant",
  "libc",
  "redox_syscall",
- "smallvec 1.6.1",
+ "smallvec 1.7.0",
  "winapi",
 ]
 
@@ -1119,9 +1118,9 @@ version = "1.0.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6e8fe8163d14ce7f0cdac2e040116f22eac817edabff0be91e8aff7e9accf389"
 dependencies = [
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
@@ -1138,9 +1137,9 @@ checksum = "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184"
 
 [[package]]
 name = "ppv-lite86"
-version = "0.2.10"
+version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ac74c624d6b2d21f425f752262f42188365d7b8ff1aff74c82e45136510a4857"
+checksum = "ed0cfbc8191465bed66e1718596ee0b0b35d5ee1f41c5df2189d0fe8bde535ba"
 
 [[package]]
 name = "proc-macro-hack"
@@ -1165,9 +1164,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.29"
+version = "1.0.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b9f5105d4fdaab20335ca9565e106a5d9b82b6219b5ba735731124ac6711d23d"
+checksum = "ba508cc11742c0dc5c1659771673afbab7a0efab23aa17e854cbab0837ed0b43"
 dependencies = [
  "unicode-xid 0.2.2",
 ]
@@ -1183,11 +1182,11 @@ dependencies = [
 
 [[package]]
 name = "quote"
-version = "1.0.9"
+version = "1.0.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c3d0b9745dc2debf507c8422de05d7226cc1f0644216dfdfead988f9b1ab32a7"
+checksum = "38bc8cc6a5f2e3655e0899c1b848643b2562f853f114bfec7be120678e3ace05"
 dependencies = [
- "proc-macro2 1.0.29",
+ "proc-macro2 1.0.32",
 ]
 
 [[package]]
@@ -1402,11 +1401,11 @@ dependencies = [
 [[package]]
 name = "route_macro"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=d46e47d#d46e47db01366be91890c3a50e0be35fa0072ad9"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=be7a602#be7a60252781a0248fb0071578a90c058a8aa02d"
 dependencies = [
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
@@ -1517,9 +1516,9 @@ version = "1.0.130"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d7bc1a1ab1961464eae040d96713baa5a724a8152c1222492465b54322ec508b"
 dependencies = [
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
@@ -1573,9 +1572,9 @@ dependencies = [
 
 [[package]]
 name = "slab"
-version = "0.4.4"
+version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c307a32c1c5c437f38c7fd45d753050587732ba8628319fbdf12a7e289ccc590"
+checksum = "9def91fd1e018fe007022791f865d0ccc9b3a0d5001e01aabb8b40e46000afb5"
 
 [[package]]
 name = "smallvec"
@@ -1588,9 +1587,9 @@ dependencies = [
 
 [[package]]
 name = "smallvec"
-version = "1.6.1"
+version = "1.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fe0f37c9e8f3c5a4a66ad655a93c74daac4ad00c441533bf5c6e7990bb42604e"
+checksum = "1ecab6c735a6bb4139c0caafd0cc3635748bbb3acf4550e8138122099251f309"
 
 [[package]]
 name = "socket2"
@@ -1617,11 +1616,11 @@ checksum = "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3"
 [[package]]
 name = "static_ref_macro"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=d46e47d#d46e47db01366be91890c3a50e0be35fa0072ad9"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=be7a602#be7a60252781a0248fb0071578a90c058a8aa02d"
 dependencies = [
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
@@ -1637,12 +1636,12 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "1.0.77"
+version = "1.0.81"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5239bc68e0fef57495900cfea4e8dc75596d9a319d7e16b1e0a440d24e6fe0a0"
+checksum = "f2afee18b8beb5a596ecb4a2dce128c719b4ba399d34126b9e4396e3f9860966"
 dependencies = [
- "proc-macro2 1.0.29",
- "quote 1.0.9",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
  "unicode-xid 0.2.2",
 ]
 
@@ -1657,29 +1656,29 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "1.0.29"
+version = "1.0.30"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "602eca064b2d83369e2b2f34b09c70b605402801927c65c11071ac911d299b88"
+checksum = "854babe52e4df1653706b98fcfc05843010039b406875930a70e4d9644e5c417"
 dependencies = [
  "thiserror-impl",
 ]
 
 [[package]]
 name = "thiserror-impl"
-version = "1.0.29"
+version = "1.0.30"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bad553cc2c78e8de258400763a647e80e6d1b31ee237275d756f6836d204494c"
+checksum = "aa32fd3f627f367fe16f893e2597ae3c05020f8bba2666a4e6ea73d377e5714b"
 dependencies = [
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
 name = "time"
-version = "0.3.3"
+version = "0.3.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cde1cf55178e0293453ba2cca0d5f8392a922e52aa958aee9c28ed02becc6d03"
+checksum = "99beeb0daeac2bd1e86ac2c21caddecb244b39a093594da1a661ec2060c7aedd"
 dependencies = [
  "itoa",
  "libc",
@@ -1702,9 +1701,9 @@ checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
 
 [[package]]
 name = "tokio"
-version = "1.12.0"
+version = "1.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c2c2416fdedca8443ae44b4527de1ea633af61d8f7169ffa6e72c5b53d24efcc"
+checksum = "588b2d10a336da58d877567cd8fb8a14b463e2104910f8132cd054b4b96e29ee"
 dependencies = [
  "autocfg 1.0.1",
  "bytes",
@@ -1721,9 +1720,9 @@ dependencies = [
 
 [[package]]
 name = "tokio-rustls"
-version = "0.23.0"
+version = "0.23.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d49194a46b06a69f2498a34a595ab4a9c1babd2642ffa3dbccf6c6778d1426f2"
+checksum = "4baa378e417d780beff82bf54ceb0d195193ea6a00c14e22359e7f39456b5689"
 dependencies = [
  "rustls",
  "tokio",
@@ -1732,9 +1731,9 @@ dependencies = [
 
 [[package]]
 name = "tokio-stream"
-version = "0.1.7"
+version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b2f3f698253f03119ac0102beaa64f67a67e08074d03a22d18784104543727f"
+checksum = "50145484efff8818b5ccd256697f36863f587da82cf8b409c53adf1e840798e3"
 dependencies = [
  "futures-core",
  "pin-project-lite",
@@ -1743,9 +1742,9 @@ dependencies = [
 
 [[package]]
 name = "tokio-util"
-version = "0.6.8"
+version = "0.6.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "08d3725d3efa29485e87311c5b699de63cde14b00ed4d256b8318aa30ca452cd"
+checksum = "9e99e1983e5d376cd8eb4b66604d2e99e79f5bd988c3055891dcd8c9e2604cc0"
 dependencies = [
  "bytes",
  "futures-core",
@@ -1757,9 +1756,9 @@ dependencies = [
 
 [[package]]
 name = "tracing"
-version = "0.1.28"
+version = "0.1.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "84f96e095c0c82419687c20ddf5cb3eadb61f4e1405923c9dc8e53a1adacbda8"
+checksum = "375a639232caf30edfc78e8d89b2d4c375515393e7af7e16f01cd96917fb2105"
 dependencies = [
  "cfg-if 1.0.0",
  "pin-project-lite",
@@ -1768,9 +1767,9 @@ dependencies = [
 
 [[package]]
 name = "tracing-core"
-version = "0.1.20"
+version = "0.1.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "46125608c26121c81b0c6d693eab5a420e416da7e43c426d2e8f7df8da8a3acf"
+checksum = "1f4ed65637b8390770814083d20756f87bfa2c21bf2f110babdc5438351746e4"
 dependencies = [
  "lazy_static",
 ]
@@ -1781,9 +1780,9 @@ version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "875c4c873cc824e362fa9a9419ffa59807244824275a44ad06fec9684fff08f2"
 dependencies = [
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
 ]
 
 [[package]]
@@ -1809,9 +1808,9 @@ dependencies = [
 
 [[package]]
 name = "unicode-bidi"
-version = "0.3.6"
+version = "0.3.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "246f4c42e67e7a4e3c6106ff716a5d067d4132a642840b242e357e468a2a0085"
+checksum = "1a01404663e3db436ed2746d9fefef640d868edae3cceb81c3b8d5732fda678f"
 
 [[package]]
 name = "unicode-normalization"
@@ -1901,9 +1900,9 @@ dependencies = [
  "bumpalo",
  "lazy_static",
  "log",
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
  "wasm-bindgen-shared",
 ]
 
@@ -1925,7 +1924,7 @@ version = "0.2.78"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d56146e7c495528bf6587663bea13a8eb588d39b36b679d83972e1a2dbbdacf9"
 dependencies = [
- "quote 1.0.9",
+ "quote 1.0.10",
  "wasm-bindgen-macro-support",
 ]
 
@@ -1935,9 +1934,9 @@ version = "0.2.78"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7803e0eea25835f8abdc585cd3021b3deb11543c6fe226dcd30b228857c5c5ab"
 dependencies = [
- "proc-macro2 1.0.29",
- "quote 1.0.9",
- "syn 1.0.77",
+ "proc-macro2 1.0.32",
+ "quote 1.0.10",
+ "syn 1.0.81",
  "wasm-bindgen-backend",
  "wasm-bindgen-shared",
 ]
@@ -2023,7 +2022,7 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "zoon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=d46e47d#d46e47db01366be91890c3a50e0be35fa0072ad9"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=be7a602#be7a60252781a0248fb0071578a90c058a8aa02d"
 dependencies = [
  "apply",
  "chrono",

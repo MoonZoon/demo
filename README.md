@@ -15,7 +15,7 @@
 
 1. Install `mzoon` to `cargo_install_root`:
     ```bash
-    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev d46e47d --root cargo_install_root --locked
+    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev be7a602 --root cargo_install_root --locked
     ```
     - _Note:_ There will be faster and simpler ways with pre-compiled binaries.
 

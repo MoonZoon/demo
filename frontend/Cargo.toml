@@ -13,7 +13,7 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-zoon = { git = "https://github.com/MoonZoon/MoonZoon", rev = "d46e47d" }
+zoon = { git = "https://github.com/MoonZoon/MoonZoon", rev = "be7a602" }
 rand = { version = "0.8.3", features = ["small_rng", "getrandom"], default-features = false }
 getrandom = { version = "0.2", features = ["js"], default-features = false }
 
