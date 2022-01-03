@@ -8,14 +8,14 @@
 
 1. Check you've installed [Rust](https://www.rust-lang.org/):
     ```bash
-    rustc -V # rustc 1.56.0 (09c42c458 2021-10-18)
+    rustc -V # rustc 1.57.0 (f1edd0429 2021-11-29)
     ```
 
 1. Go to the project root.
 
 1. Install `mzoon` to `cargo_install_root`:
     ```bash
-    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev 0a2d2f2 --root cargo_install_root --locked
+    cargo install mzoon --git https://github.com/MoonZoon/MoonZoon --rev 3c29e285b49e9cea9242748772d7266a7a2fdd0a --root cargo_install_root --locked
     ```
     - _Note:_ There will be faster and simpler ways with pre-compiled binaries.
 
