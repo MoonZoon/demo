@@ -107,9 +107,9 @@ dependencies = [
 
 [[package]]
 name = "actix-router"
-version = "0.5.0-beta.3"
+version = "0.5.0-beta.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ddd9f117b910fbcce6e9f45092ffd4ff017785a346d09e2d4fd049f4e20384f4"
+checksum = "b53c1deabdbf3a8a8b9a949123edd3cafb873abd75da96b5933a8b590f9d6dc2"
 dependencies = [
  "bytestring",
  "firestorm",
@@ -229,9 +229,9 @@ dependencies = [
 
 [[package]]
 name = "actix-web-codegen"
-version = "0.5.0-beta.6"
+version = "0.5.0-rc.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "30a90b7f6c2fde9a1fe3df4da758c2c3c9d620dfa3eae4da0b6925dc0a13444a"
+checksum = "98a793e4a7bd059e06e1bc1bd9943b57a47f806de3599d2437441682292c333e"
 dependencies = [
  "actix-router",
  "proc-macro2 1.0.36",
@@ -527,9 +527,9 @@ dependencies = [
 
 [[package]]
 name = "firestorm"
-version = "0.4.6"
+version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "31586bda1b136406162e381a3185a506cdfc1631708dd40cba2f6628d8634499"
+checksum = "4d3d6188b8804df28032815ea256b6955c9625c24da7525f387a7af02fbb8f01"
 
 [[package]]
 name = "fnv"
@@ -653,9 +653,9 @@ dependencies = [
 
 [[package]]
 name = "generic-array"
-version = "0.14.4"
+version = "0.14.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "501466ecc8a30d1d3b7fc9229b122b2ce8ed6e9d9223f1138d4babb253e51817"
+checksum = "fd48d33ec7f05fbfa152300fdad764757cbded343c1aa1cff2fbaf4134851803"
 dependencies = [
  "typenum",
  "version_check",
@@ -723,7 +723,7 @@ dependencies = [
 [[package]]
 name = "hsluv"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=3c29e285b49e9cea9242748772d7266a7a2fdd0a#3c29e285b49e9cea9242748772d7266a7a2fdd0a"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=15cb619faca5f78a47e08f4af4bfa595f0eb64b1#15cb619faca5f78a47e08f4af4bfa595f0eb64b1"
 dependencies = [
  "hsluv_macro",
  "rust-hsluv",
@@ -732,7 +732,7 @@ dependencies = [
 [[package]]
 name = "hsluv_macro"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=3c29e285b49e9cea9242748772d7266a7a2fdd0a#3c29e285b49e9cea9242748772d7266a7a2fdd0a"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=15cb619faca5f78a47e08f4af4bfa595f0eb64b1#15cb619faca5f78a47e08f4af4bfa595f0eb64b1"
 dependencies = [
  "quote 1.0.14",
  "syn 1.0.84",
@@ -944,7 +944,7 @@ dependencies = [
 [[package]]
 name = "moon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=3c29e285b49e9cea9242748772d7266a7a2fdd0a#3c29e285b49e9cea9242748772d7266a7a2fdd0a"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=15cb619faca5f78a47e08f4af4bfa595f0eb64b1#15cb619faca5f78a47e08f4af4bfa595f0eb64b1"
 dependencies = [
  "actix-cors",
  "actix-files",
@@ -979,7 +979,7 @@ dependencies = [
 [[package]]
 name = "moon_entry_macros"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=3c29e285b49e9cea9242748772d7266a7a2fdd0a#3c29e285b49e9cea9242748772d7266a7a2fdd0a"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=15cb619faca5f78a47e08f4af4bfa595f0eb64b1#15cb619faca5f78a47e08f4af4bfa595f0eb64b1"
 dependencies = [
  "quote 1.0.14",
 ]
@@ -987,7 +987,7 @@ dependencies = [
 [[package]]
 name = "moonlight"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=3c29e285b49e9cea9242748772d7266a7a2fdd0a#3c29e285b49e9cea9242748772d7266a7a2fdd0a"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=15cb619faca5f78a47e08f4af4bfa595f0eb64b1#15cb619faca5f78a47e08f4af4bfa595f0eb64b1"
 dependencies = [
  "chrono",
  "getrandom",
@@ -1400,7 +1400,7 @@ dependencies = [
 [[package]]
 name = "route_macro"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=3c29e285b49e9cea9242748772d7266a7a2fdd0a#3c29e285b49e9cea9242748772d7266a7a2fdd0a"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=15cb619faca5f78a47e08f4af4bfa595f0eb64b1#15cb619faca5f78a47e08f4af4bfa595f0eb64b1"
 dependencies = [
  "proc-macro2 1.0.36",
  "quote 1.0.14",
@@ -1424,9 +1424,9 @@ dependencies = [
 
 [[package]]
 name = "rustls"
-version = "0.20.0"
+version = "0.20.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9b5ac6078ca424dc1d3ae2328526a76787fecc7f8011f520e3276730e711fc95"
+checksum = "d37e5e2290f3e040b594b1a9e04377c2c671f1a1cfd9bfdef82106ac1c113f84"
 dependencies = [
  "log",
  "ring",
@@ -1603,7 +1603,7 @@ checksum = "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3"
 [[package]]
 name = "static_ref_macro"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=3c29e285b49e9cea9242748772d7266a7a2fdd0a#3c29e285b49e9cea9242748772d7266a7a2fdd0a"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=15cb619faca5f78a47e08f4af4bfa595f0eb64b1#15cb619faca5f78a47e08f4af4bfa595f0eb64b1"
 dependencies = [
  "proc-macro2 1.0.36",
  "quote 1.0.14",
@@ -2002,7 +2002,7 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "zoon"
 version = "0.1.0"
-source = "git+https://github.com/MoonZoon/MoonZoon?rev=3c29e285b49e9cea9242748772d7266a7a2fdd0a#3c29e285b49e9cea9242748772d7266a7a2fdd0a"
+source = "git+https://github.com/MoonZoon/MoonZoon?rev=15cb619faca5f78a47e08f4af4bfa595f0eb64b1#15cb619faca5f78a47e08f4af4bfa595f0eb64b1"
 dependencies = [
  "apply",
  "chrono",
